@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+frontend/.env
+frontend/.env.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
