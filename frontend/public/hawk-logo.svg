@@ -1,0 +1,110 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C5A0FF"/>
+      <stop offset="1" stop-color="#7540DB"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#70D8FF"/>
+      <stop offset="1" stop-color="#3478EE"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BFCBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Symmetrical outer feathers -->
+  <g fill="url(#purple)">
+    <path d="M128 27 L105 48 L75 39 L88 61 L42 66 L69 91 L20 104 L64 123 L43 143 L83 145 L68 177 L108 165 L128 198 Z"/>
+    <path d="M128 27 L151 48 L181 39 L168 61 L214 66 L187 91 L236 104 L192 123 L213 143 L173 145 L188 177 L148 165 L128 198 Z"/>
+  </g>
+
+  <!-- Inner face -->
+  <path fill="url(#face)" d="
+    M128 42
+    L109 65
+    L84 63
+    L99 86
+    L69 100
+    L99 113
+    L84 139
+    L112 132
+    L128 157
+    L144 132
+    L172 139
+    L157 113
+    L187 100
+    L157 86
+    L172 63
+    L147 65
+    Z"/>
+
+  <!-- Dark mirrored eye masks -->
+  <path fill="#17213B" d="
+    M111 91
+    L73 86
+    L97 113
+    L119 122
+    L128 112
+    Z"/>
+  <path fill="#17213B" d="
+    M145 91
+    L183 86
+    L159 113
+    L137 122
+    L128 112
+    Z"/>
+
+  <!-- Eye highlights -->
+  <path fill="url(#blue)" d="
+    M78 94 L111 99 L99 111 Z"/>
+  <path fill="url(#blue)" d="
+    M178 94 L145 99 L157 111 Z"/>
+
+  <circle cx="100" cy="101" r="4" fill="#FFFFFF"/>
+  <circle cx="156" cy="101" r="4" fill="#FFFFFF"/>
+
+  <!-- Eyebrows -->
+  <path fill="#7540DB" d="
+    M66 78 L116 89 L105 96 L81 88 Z"/>
+  <path fill="#7540DB" d="
+    M190 78 L140 89 L151 96 L175 88 Z"/>
+
+  <!-- Central beak -->
+  <path fill="#202B48" d="
+    M109 119
+    L128 111
+    L147 119
+    L143 151
+    L128 174
+    L113 151
+    Z"/>
+
+  <path fill="url(#blue)" d="
+    M109 119
+    L128 129
+    L128 169
+    L113 148
+    Z"/>
+  <path fill="url(#purple)" d="
+    M147 119
+    L128 129
+    L128 169
+    L143 148
+    Z"/>
+
+  <!-- Lower symmetrical feathers -->
+  <path fill="#7540DB" d="
+    M91 145 L115 151 L108 183 L80 202 L91 169 Z"/>
+  <path fill="#7540DB" d="
+    M165 145 L141 151 L148 183 L176 202 L165 169 Z"/>
+
+  <path fill="url(#blue)" d="
+    M108 165 L128 183 L148 165 L138 213 L128 228 L118 213 Z"/>
+
+  <!-- Central forehead highlight -->
+  <path fill="#FFFFFF" opacity=".65" d="
+    M128 43 L111 68 L128 61 L145 68 Z"/>
+</svg>

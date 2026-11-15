@@ -116,7 +116,11 @@ export default function App() {
       <aside className="sidebar">
         <div className="brand">
           <span className="logo">
-            <Triangle size={18} />
+            <img
+              src="/hawk-logo.svg"
+              alt="PRISM Hawk"
+              className="hawk-logo"
+            />
           </span>
           <div>
             <strong>PRISM</strong>
