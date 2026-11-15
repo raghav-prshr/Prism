@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 import {
-  AlertCircle, CheckCircle2, Download, LayoutDashboard, Loader2, Triangle, UploadCloud, Users, X,
+  AlertCircle, CheckCircle2, Download, LayoutDashboard, Loader2, UploadCloud, Users, X,
 } from "lucide-react";
 import { ApiError, analyzeFile, exportWorkbook } from "./api";
 import { MAX_UPLOAD_BYTES } from "./constants";
